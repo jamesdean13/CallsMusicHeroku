@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+        "💁🏻‍♂️ Join - @SwiftiesWorld \n Created By @TayLife \nDo you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
